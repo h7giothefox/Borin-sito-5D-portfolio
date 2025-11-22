@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti - Giovanni Borin</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <span class="logo-name">Giovanni Borin</span>
+                    <span class="logo-class">5D • Liceo Marconi</span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="competenze.html">Competenze</a></li>
+                    <li><a href="progetti.html">Progetti</a></li>
+                    <li><a href="contatti.html" class="active">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="section-title">
+                <h2>Contattami</h2>
+                <div class="underline"></div>
+                <p style="margin-top: 1rem; color: var(--text-muted);">
+                    Per informazioni sul progetto o per collaborazioni scolastiche.
+                </p>
+            </div>
+
+            <div class="contact-layout">
+                <!-- Info Box -->
+                <div class="contact-info">
+                    <h3>I miei recapiti</h3>
+                    
+                    <div class="info-item">
+                        <h4>Email Scolastica</h4>
+                        <p>giovanni.borin@scuola.it</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h4>Scuola</h4>
+                        <p>Liceo Scientifico Marconi<br>Carrara (MS), Toscana</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h4>Origine</h4>
+                        <p>Nato a Vicenza, 19 anni.</p>
+                    </div>
+
+                    <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.3);">
+                        <p style="font-size: 0.9rem; opacity: 0.9;">
+                            Disponibile per confronto sui progetti di informatica durante le ore di laboratorio.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="contact-form">
+                    <form action="#" method="GET"> <!-- Metodo GET fittizio per demo statica -->
+                        <div class="form-group">
+                            <label for="nome">Nome e Cognome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Il tuo nome" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="tua@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="messaggio">Messaggio</label>
+                            <textarea id="messaggio" name="messaggio" rows="5" placeholder="Scrivi qui..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Invia Messaggio</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-column">
+                <h4>Studente</h4>
+                <p>Giovanni Borin</p>
+                <p>Classe 5D - Liceo Scientifico Marconi</p>
+            </div>
+            <div class="footer-column">
+                <h4>Navigazione</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="competenze.html">Competenze</a></li>
+                    <li><a href="progetti.html">Progetti</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contatti</h4>
+                <p>Email: giovanni.borin@scuola.it</p>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2025 Giovanni Borin. Validato W3C.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
